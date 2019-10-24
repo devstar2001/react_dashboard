@@ -1,0 +1,89 @@
+// Here you can add other styles
+
+.leaflet-container {
+  height: 100%;
+  width: 100%;
+}
+
+.react-bs-table-container {
+  height: 90%;
+}
+
+.react-bs-container-body {
+  max-height: 90%;
+  overflow-y: auto;
+}
+
+.header-title {
+  color: #5a5a5a;
+}
+
+.chart-container {
+  width: 100% !important;
+}
+
+.DateRangePicker_picker {
+  z-index: 500;
+}
+
+@media (min-width: 768px) {
+  .store-filter-table {
+    height: 400px;
+  }
+
+  .dwelling-time-pie-chart-title {
+    height: 30px;
+  }
+
+  .dwelling-time-pie-chart-title:first-child{
+    margin-bottom: 0 !important;
+  }
+
+  .dwelling-time-pie-chart-wrapper {
+    height: 200px;
+  }
+}
+
+.date-range-picker {
+  float: right;
+  margin-left: 0.5rem !important;
+}
+
+@media (max-width: 576px) {
+  .date-range-picker {
+    display: flex;
+    width: 100%;
+    float: left;
+    margin-left: 0 !important;
+
+    div {
+      margin: 0 auto;
+    }
+  }
+}
+
+.specific-date-div {
+  float: right;
+}
+
+@media (max-width: 576px) {
+  .specific-date-div {
+    width: 100%;
+    float: left;
+  }
+}
+
+#specific-date {
+  height: 41px;
+  border-radius: 0;
+}
+
+@media (max-width: 576px) {
+  #specific-date {
+    width: 279px;
+    height: 41px;
+    border-radius: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
