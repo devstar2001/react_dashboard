@@ -7,7 +7,7 @@
     "@coreui/icons": "^0.3.0",
     "@coreui/react": "^2.1.2",
     "@dvsl/zoomcharts": "^1.18.9-nightly",
-    "axios": "^0.18.0",
+    
     "bootstrap": "^4.1.3",
     "chart.js": "^2.7.3",
     "core-js": "^2.6.1",
